@@ -1,4 +1,4 @@
-CREATE TABLE [tbl_Task_List] (
+CREATE TABLE [Task_List] (
   [Location_ID] VARCHAR (50),
   [Request_date] DATETIME ,
   [Task_desc] VARCHAR (100),

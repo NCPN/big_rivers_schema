@@ -1,4 +1,4 @@
-CREATE TABLE [tbl_Target_Species] (
+CREATE TABLE [Target_Species] (
   [Master_Plant_Code_FK] VARCHAR (20),
   [List_Type] VARCHAR (2),
   [Target_Year] SHORT ,

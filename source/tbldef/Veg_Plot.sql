@@ -1,4 +1,4 @@
-CREATE TABLE [tbl_Veg_Plot] (
+CREATE TABLE [Veg_Plot] (
   [Plot_ID] VARCHAR (50) CONSTRAINT [PrimaryKey] PRIMARY KEY  UNIQUE  NOT NULL ,
   [Plot_Number] SHORT ,
   [Transect_ID_FK] VARCHAR (50),
@@ -7,5 +7,5 @@ CREATE TABLE [tbl_Veg_Plot] (
   [Understory_Rooted_Pct_Cover] SHORT ,
   [Woody_Canopy_Pct_Cover] SHORT ,
   [Plot_Density] SHORT ,
-  [NoRootedVeg] BYTE 
+  [No_Rooted_Veg] BYTE 
 )

@@ -1,4 +1,4 @@
-CREATE TABLE [tbl_Timed_Walk] (
+CREATE TABLE [Timed_Walk] (
   [Timed_Walk_ID] VARCHAR (50) CONSTRAINT [PrimaryKey] PRIMARY KEY  UNIQUE  NOT NULL ,
   [Event_ID_FK] VARCHAR (50),
   [Collection_Place_FK] VARCHAR (50),

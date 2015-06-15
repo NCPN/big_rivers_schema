@@ -1,4 +1,4 @@
-CREATE TABLE [tbl_Survey_Data_Source_Files] (
+CREATE TABLE [Survey_Data_Source_Files] (
   [Source_ID] VARCHAR (50),
   [Source_File_Name] VARCHAR (255),
   [Source_File_Path] VARCHAR (255),

@@ -1,4 +1,4 @@
-CREATE TABLE [tbl_Veg_Transect] (
+CREATE TABLE [Veg_Transect] (
   [Transect_ID] VARCHAR (50) CONSTRAINT [PrimaryKey] PRIMARY KEY  UNIQUE  NOT NULL ,
   [Loc_ID_FK] VARCHAR (50),
   [Event_ID_FK] VARCHAR (50),

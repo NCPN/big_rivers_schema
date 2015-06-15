@@ -1,4 +1,4 @@
-CREATE TABLE [tbl_Survey_Points_History] (
+CREATE TABLE [Survey_Points_History] (
   [Survey_Data_ID] VARCHAR (50),
   [Point_ID] VARCHAR (255),
   [Point_Type] VARCHAR (255),
